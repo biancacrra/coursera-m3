@@ -1,0 +1,59 @@
+body {
+    background-color:#ffffff ;
+    color:#000000;
+    font-family: "Comic Neue", cursive;
+}
+#header-nav {
+    background-color: #908f8f;
+    border-radius: 0;
+    border: 2px solid black;
+}
+
+.custom-navbar {
+    background-color: #908f8f;
+    border: 2px solid black;
+}
+.navbar-brand {
+    color: black;
+  }
+.tall-section {
+    background-color: #f0f0f0;
+    height: 1000px;
+}
+
+.nav-item{
+    border:2px black solid;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (min-width: 987px){
+    #navbarNav {
+        visibility: hidden;
+    }
+
+}
+
+#our-menu {
+    margin: 50px;
+}
+
+#cardapio {;
+    width:90%;
+}
+
+.desc-item {
+    padding: 25px;
+}
+
+.cardapio-item {
+    padding-top: 25px;
+    background-color: #908f8f
+}
+
+.menu-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
